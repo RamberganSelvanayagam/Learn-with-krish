@@ -22,7 +22,9 @@ for (let i=0;i<a.length;i++){
 			}
 			else if(a[i]+1==a[i+1]&&a[i]+1==a[a.length-1])
 			{
-			   			console.log( a[i]+2); 
+			console.log("missing Value is "+ (a[i]+2)); 
+			console.log( "otherwise missing value is "+(a[0]-1)); 
+
  
 			}
 	}  
